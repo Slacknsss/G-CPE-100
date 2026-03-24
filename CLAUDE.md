@@ -52,14 +52,32 @@ Pour corriger une task, tu dois :
 1. **Vérifier l'existence** du fichier livré (ex: `my_print_alpha.c`)
 2. **Vérifier le prototype** : correspond-il exactement à celui demandé ?
 3. **Vérifier les interdits** : présence de `[]`, de `"..."`, de `main`, de `my_putchar` définie, de `#include <string.h>` ou similaire
-4. **Compiler** avec :
+4. **Lancer NormEZ** sur le fichier avec :
+   ```bash
+   normez --no-update [fichier_livré]
+   ```
+   - Si NormEZ remonte des violations → erreur `[CODING_STYLE]` avec la liste exacte des violations en sortie
+   - Si NormEZ ne remonte rien → coding style OK, on continue
+5. **Compiler** avec :
    ```bash
    gcc -Wall -Wextra -Werror my_putchar.c [fichier_livré] main_test.c -o test_out
    ```
    *(tu génères toi-même un `my_putchar.c` minimal et un `main_test.c` approprié à la task)*
-5. **Exécuter** et capturer la sortie
-6. **Comparer** à la sortie attendue (comparaison octet par octet)
-7. **Afficher le verdict**
+6. **Exécuter** et capturer la sortie
+7. **Comparer** à la sortie attendue (comparaison octet par octet)
+8. **Afficher le verdict**
+
+### Format étendu si NormEZ détecte des violations
+
+```
+[TASK XX - nom_de_la_fonction]
+─────────────────────────────
+❌ ERREUR : [CODING_STYLE] — X violation(s) NormEZ détectée(s) :
+  • [ligne Y] message de NormEZ
+  • [ligne Z] message de NormEZ
+```
+
+Si la task a aussi d'autres erreurs (compilation, output…), liste toutes les erreurs dans le même bloc verdict.
 
 ---
 
