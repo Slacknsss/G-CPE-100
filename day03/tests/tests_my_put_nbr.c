@@ -4,7 +4,7 @@
 ** File description:
 ** Tests for my_put_nbr
 */
-#include "../../../lib/my_putchar.h"
+#include "../../lib/my_putchar.h"
 
 int my_put_nbr(int nb);
 

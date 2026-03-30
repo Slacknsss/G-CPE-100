@@ -9,7 +9,7 @@
 ** (00 01, 00 02, 00 03, 00 04, 00 05,...,01 99, 02 03, ..., 98 99).
 */
 #include <unistd.h>
-#include "../../lib/my_putchar.h"
+#include "../lib/my_putchar.h"
 
 int  my_print_comb2(void) {
 char i;

@@ -5,7 +5,7 @@
 ** This function write all the alphabet in descending order
 */
 #include <unistd.h>
-#include "../../lib/my_putchar.h"
+#include "../lib/my_putchar.h"
 
 int my_print_revalpha(void) {
 char i;

@@ -8,7 +8,7 @@
 ** all the different combinations of two two-digit numbers
 ** given by N 
 */
-#include "../../lib/my_putchar.h"
+#include "../lib/my_putchar.h"
 
 void helper(int n, int start, int *tab, int size) {
     if (n == 0 ) {
