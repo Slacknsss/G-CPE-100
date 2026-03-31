@@ -5,7 +5,7 @@
 ** This function write all the alphabet in order
 */
 #include <unistd.h>
-#include "../lib/my_putchar.h"
+#include "my_putchar.h"
 
 int my_print_alpha(void) {
 char i;

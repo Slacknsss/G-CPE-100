@@ -8,7 +8,7 @@
 ** -and only the smallest one must be display (021 -> no :012 yes)
 */
 #include <unistd.h>
-#include "../lib/my_putchar.h"
+#include "my_putchar.h"
 
 int my_print_comb(void) {
 char i ;

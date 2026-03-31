@@ -5,7 +5,7 @@
 ** la fonciton doit pouvoir afficher n'importe quelle entier (in)
 */
 #include <unistd.h>
-#include "../lib/my_putchar.h"
+#include "my_putchar.h"
 
 int my_put_nbr ( int nb ) {
     if (nb == -2147483648) {

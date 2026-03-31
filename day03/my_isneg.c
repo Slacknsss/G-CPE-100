@@ -7,7 +7,7 @@
 ** if positive or null
 */
 #include <unistd.h>
-#include "../lib/my_putchar.h"
+#include "my_putchar.h"
 
 int my_isneg(int n){
     if (n < 0)
