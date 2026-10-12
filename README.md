@@ -1,5 +1,5 @@
-# G-CPE-100 — Piscine C Epitech
+# G-CPE-100, piscine C Epitech
 
 Je fais la piscine C dans mon coin.
 
-J'utilise **Claude Code** à la racine du repo uniquement pour simuler la moulinette et vérifier le coding style — il ne m'aide pas à coder.
+J'utilise **Claude Code** dans ce repo pour simuler la moulinette, vérifier le coding style et faire certains commits : ceux qui ont la ligne `Co-Authored-By: Claude` ont été faits avec lui.
